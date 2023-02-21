@@ -1,0 +1,29 @@
+{
+    "name": "onexcrm/response-structure",
+    "description": "Create useful api or service response structure easily.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arindam Roy",
+            "email": "arindam.roy.developer@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Onex\\Responsestructure\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Onex\\Responsestructure\\OnexResponseStructureServiceProvider"
+            ],
+            "aliases": {
+                "OnexResponse": "Onex\\Responsestructure\\Responsestructure\\ResponseStructureClassFacade"
+            }
+        }
+    }
+}
