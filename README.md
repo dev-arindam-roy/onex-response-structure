@@ -60,6 +60,7 @@ $getResponse = OnexResponse::constructResponseJsonObject($userData, 'User list f
 dd($getResponse);
 ```
 
+![onex_resstruc](https://user-images.githubusercontent.com/24665327/220434253-7ef23c52-3715-4454-ad6a-b66d4ed3f317.png)
 
 Feel free to contact me: Arindam Roy <arindam.roy.developer@gmail.com>
 ### Thanks
